@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Client\\VehicleQuote.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Client\\VehicleQuote.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Client\\VehicleQuote.Client.csproj",
+        "projectName": "VehicleQuote.Client",
+        "projectPath": "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Client\\VehicleQuote.Client.csproj",
+        "packagesPath": "C:\\Users\\alaxmansutar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alaxmansutar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Shared\\VehicleQuote.Shared.csproj": {
+                "projectPath": "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Shared\\VehicleQuote.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "SqlTableDependency": {
+              "target": "Package",
+              "version": "[8.5.8, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Shared\\VehicleQuote.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Shared\\VehicleQuote.Shared.csproj",
+        "projectName": "VehicleQuote.Shared",
+        "projectPath": "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Shared\\VehicleQuote.Shared.csproj",
+        "packagesPath": "C:\\Users\\alaxmansutar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alaxmansutar\\OneDrive - DXC Production\\Desktop\\Vehicle Quote Generator (2)\\Vehicle Quote Generator\\VehicleQuote\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alaxmansutar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "SqlTableDependency": {
+              "target": "Package",
+              "version": "[8.5.8, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

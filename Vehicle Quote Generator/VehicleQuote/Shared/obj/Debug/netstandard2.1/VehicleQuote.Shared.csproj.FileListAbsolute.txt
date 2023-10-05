@@ -1,0 +1,58 @@
+C:\Zurich\Projects\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.deps.json
+C:\Zurich\Projects\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Zurich\Projects\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Zurich\Projects\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfoInputs.cache
+C:\Zurich\Projects\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfo.cs
+C:\Zurich\Projects\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.CoreCompileInputs.cache
+C:\Zurich\Projects\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Zurich\Projects\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.deps.json
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.AssemblyReference.cache
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfoInputs.cache
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfo.cs
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\tshilpa\Downloads\SruthiVehicleQuote (1)\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.deps.json
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.AssemblyReference.cache
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfoInputs.cache
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfo.cs
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\tshilpa\OneDrive - DXC Production\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.deps.json
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.AssemblyReference.cache
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfoInputs.cache
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfo.cs
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.CoreCompileInputs.cache
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\alaxmansutar\Downloads\MyVehicleQuoteGenerate\VehicleQuoteGenerate\VehicleQuote\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.deps.json
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.AssemblyReference.cache
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfoInputs.cache
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfo.cs
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.CoreCompileInputs.cache
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.deps.json
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\bin\Debug\netstandard2.1\VehicleQuote.Shared.pdb
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.AssemblyReference.cache
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfoInputs.cache
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.AssemblyInfo.cs
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.csproj.CoreCompileInputs.cache
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.dll
+C:\Users\alaxmansutar\OneDrive - DXC Production\Desktop\Vehicle Quote Generator (2)\Vehicle Quote Generator\VehicleQuote\Shared\obj\Debug\netstandard2.1\VehicleQuote.Shared.pdb

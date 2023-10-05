@@ -1,0 +1,368 @@
+﻿@page "/quote"
+@using VehicleQuote.Shared
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@*@inject NavigationManager NavigationManager*@
+@using System.Collections.Generic
+
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="mt-3 mb-3">
+
+            <h2> <b>Vehicle Insurance Quotation Form</b></h2>
+
+            <h6>Please fill the form accurately for better assistance.</h6>
+            </div><br />
+            <div class="body">
+
+
+
+
+                <EditForm Model="user" OnInvalidSubmit="Handle">
+                    <DataAnnotationsValidator />
+
+                    @* <div class=" mb-3">*@
+                    <div class="form-group row">
+                        <label for="userid" class="control-label col-md-12"><b>Username</b></label>
+                        <div class="col-md-12">
+                            <InputText class="form-control" @bind-Value="user.username" placeholder="Enter your mail Id" />
+                            <ValidationMessage For="@(()=> user.username)" />
+                        </div>
+
+                    </div>
+                    <br />
+
+                    <div class=" form-group row">
+                        <label for="vehicletype" class="control-label col-md-12"><b> Vehicle Type</b></label>
+                        <div class="col-md-12">
+                            <select class="form-control" @bind="type">
+                                <option selected>-Select-</option>
+                                <option value="New Vehicle"> New Vehicle </option>
+                                <option value="Existing Vehicle"> Existing Vehicle</option>
+                            </select>
+                            <ValidationMessage For="@(()=> user.vehicletype)" />
+                        </div>
+
+                    </div>
+                    <br />
+
+                    <div class="form-group row">
+                        <label for="vehicleage" class="control-label col-md-12"><b> Vehicle Age</b></label>
+                        <div class="col-md-12">
+                            <select class="form-control" @bind="user.vehicleage">
+                                <option>-select vehicle age-</option>
+                                @foreach (var item in CarType)
+                                {
+                                    <option value="@item.ord_age">@item.age</option>
+                                }
+                            </select>
+                            <ValidationMessage For="@(()=> user.vehicleage)" />
+                        </div>
+
+                    </div>
+                    <br />
+
+                    <div class="form-group row">
+                        <label for="vehiclemake" class="control-label col-md-12"><b> Vehicle Make</b></label>
+                        <div class="col-md-12">
+                            <select class="form-control" @bind="model">
+                                <option selected>-Select-</option>
+                                <option value="Renault">Renault</option>
+                                <option value="Tata">Tata</option>
+                                <option value="Maruti">Maruti</option>
+                              
+
+                            </select>
+                            <ValidationMessage For="@(()=> user.vehiclemake)" />
+                        </div>
+
+                    </div>
+                    <br />
+                    <div class="form-group row">
+                        <label for="vehiclemodel" class="control-label col-md-12"><b> Vehicle Model</b></label>
+                        <div class="col-md-12">
+                            <InputSelect class="form-control" @bind-Value="user.vehiclemodel">
+                                <option selected>-Select-</option>
+                                @foreach (var item1 in CarList)
+                                {
+                                    <option>@item1.make</option>
+
+                                }
+                            </InputSelect>
+                            <ValidationMessage For="@(()=> user.vehiclemodel)" />
+                        </div>
+
+                    </div>
+                    <br />
+                    <div class="form-group row">
+                        <label for="vehiclecoverage" class="control-label col-md-12"><b> Vehicle Coverage</b></label>
+                        <div class="col-md-12">
+                            <InputSelect class="form-control" @bind-Value="user.vehiclecoverage">
+                                <option selected>-Select-</option>
+                                <option value="Comprehensive">Comprehensive</option>
+                                <option value="Liability">Liability</option>
+                            </InputSelect>
+                            <ValidationMessage For="@(()=> user.vehiclecoverage)" />
+                        </div>
+
+                    </div>
+                    <br />
+                    <br />
+
+                    <div class="text-center">
+                    <button type="submit" @onclick="@Create" value="Submit" class="btn btn-primary">
+                        Get Quote
+                    </button>
+                    </div>
+                    <br />
+                    <br />
+                    <div class=" form-group row">
+                        <label for="formula" class="control-label col-md-12"><b> Your Quote</b></label>
+
+                        <div class="col-md-12">
+                            
+                            <textarea rows="2" cols="20" class="form-control" @bind="user.formula" />
+                        </div>
+                    </div>
+
+
+
+                </EditForm>
+            </div>
+        </div>
+    </div>
+
+
+
+
+@code {
+    User user = new User();
+    Types types = new Types();
+   
+
+    void Handle()
+    {
+        Console.WriteLine("--------");
+    }
+
+    private string vtype;//myvehicle
+
+    public string type
+    {
+        get
+        {
+            return vtype;
+        }
+        set
+        {
+            vtype = value;
+            user.vehicletype = value;
+            selectType();
+        }
+    }
+
+  
+    List<Types> CarType = new List<Types>();
+    public void selectType()
+    {
+        string Vtype = type;
+
+
+
+        try
+        {
+            if (Vtype == "Existing Vehicle")
+            {
+
+                CarType = new List<Types>
+                {
+                    new Types(){age="1 Year", ord_age=0.0 },
+                    new Types(){age="2 Years", ord_age=0.1 },
+                    new Types(){age="3 Years", ord_age=0.2},
+                    new Types(){age="4 Years", ord_age=0.3 },
+                    new Types(){age="5 Years", ord_age=0.4 },
+
+
+                };
+            }
+            if (Vtype == "New Vehicle")
+            {
+                CarType = new List<Types>
+                    {
+                        new Types {age = "new vehicle", ord_age=0.0},
+                    };
+            }
+
+
+        }
+
+        catch (Exception e)
+        {
+
+        }
+
+    }
+    public string vehicle;
+    public string model
+    {
+        get
+        {
+            return vehicle;
+        }
+        set
+        {
+            vehicle = value;
+            user.vehiclemake = value;
+            selectModel();
+        }
+    }
+
+    List<CarsModels> CarList = new List<CarsModels>();
+
+    public void selectModel()
+    {
+        vehicle= model;
+        try
+        {
+            if (vehicle == "Renault")
+            {
+                CarList = new List<CarsModels>
+                {
+                   new CarsModels(){make= "Kwid"},
+                    new CarsModels(){make="triber"},
+                    new CarsModels(){make= "Nexon"},
+                    new CarsModels(){make= "Tiago"},
+
+                };
+            }
+            if (vehicle == "Tata")
+            {
+                CarList = new List<CarsModels>
+                {
+                   new CarsModels(){make="Nexon"},
+                    new CarsModels(){make="Tiago"},
+                    new CarsModels(){make="Altroz"},
+                     new CarsModels(){make="Harrier"},
+
+                };
+            }
+            if (vehicle == "Maruti")
+            {
+                CarList = new List<CarsModels>
+                {
+                   new CarsModels(){make="Brezza"},
+                    new CarsModels(){make="Dzire"},
+                    new CarsModels(){make="Baleno"},
+                    new CarsModels(){make="Fronx"},
+
+                };
+
+            }
+        }
+        catch (Exception e)
+        {
+
+        }
+    }
+
+    ICollection<PremiumRates> premiumRatesLS;
+    ICollection<VehiclesIDV> vehiclesIDVLS;
+    protected override void OnInitialized()
+    {
+        try
+        {
+            premiumRatesLS = new List<PremiumRates>();
+            vehiclesIDVLS = new List<VehiclesIDV>();
+            PremiumRates premiumRate1 = new PremiumRates("Private Car", 1.28, 700);
+            PremiumRates premiumRate2 = new PremiumRates("Goods Carrying Vehicle", 0.52, 3900);
+            PremiumRates premiumRate3 = new PremiumRates("Passenger Carrying Vehicle", 0.68, 1300);
+            premiumRatesLS.Add(premiumRate1);
+            premiumRatesLS.Add(premiumRate2);
+            premiumRatesLS.Add(premiumRate3);
+            VehiclesIDV vehiclesIDV1 = new VehiclesIDV("Private Car", "Renault", "Kwid", 37_000);
+            VehiclesIDV vehiclesIDV2 = new VehiclesIDV("Private Car", "Tata", "Nexon", 60_000);
+            VehiclesIDV vehiclesIDV3 = new VehiclesIDV("Goods Carrying Vehicle", "Maruti", "Brezza", 51_000);
+            VehiclesIDV vehiclesIDV4 = new VehiclesIDV("Passenger Carrying Vehicle", "Kia", "EV6", 90_540);
+            VehiclesIDV vehiclesIDV5 = new VehiclesIDV("Private Car", "Others", "Car", 50_000);
+            vehiclesIDVLS.Add(vehiclesIDV1);
+            vehiclesIDVLS.Add(vehiclesIDV2);
+            vehiclesIDVLS.Add(vehiclesIDV3);
+            vehiclesIDVLS.Add(vehiclesIDV4);
+            vehiclesIDVLS.Add(vehiclesIDV5);
+
+        }
+        catch (Exception ex)
+        {
+        }
+    }
+
+    (double comprehensiveCoverage, int limitedlibality) GetRates(string vehicleType)
+    {
+        IList<PremiumRates> rates = premiumRatesLS.Where(p => p.VehicleType == vehicleType).ToList();
+
+        return (rates[0].comprehensiveCoverage, rates[0].Limitedlibality);
+    }
+    (int idv, string type) GetIDV(string make, string model)
+    {
+        var idv = (from vehicleIDV in vehiclesIDVLS where vehicleIDV.Make.ToLower() == make.ToLower() && vehicleIDV.Model.ToLower() == model.ToLower() select new { vehicleIDV.vehicleType, vehicleIDV.IDV }).ToList();
+        if (idv.Count == 0)
+        {
+            idv = (from vehicleIDV in vehiclesIDVLS where vehicleIDV.Make == "Others" select new { vehicleIDV.vehicleType, vehicleIDV.IDV }).ToList();
+        }
+        return (idv[0].IDV, idv[0].vehicleType);
+    }
+
+    private string _message = "Processing";
+
+    public async Task<User> Create()
+    {
+
+        try
+        {
+            if (user.vehicletype == "Existing Vehicle" && user.vehiclecoverage == "Liability")
+            {
+                var idvValue = GetIDV(user.vehiclemake.ToLower(), user.vehiclemodel.ToLower());
+                var rates = GetRates(idvValue.type); 
+                user.formula = "Dear " + user.username + " for your " + @user.vehiclemake + " " + @user.vehiclemodel + " Vehicle ,the total quote is $ " + Math.Round((double)rates.limitedlibality, 2) + " .Thank you!";
+            }
+            else if (user.vehicletype == "Existing Vehicle" && user.vehiclecoverage == "Comprehensive")
+            {
+                var idvValue = GetIDV(user.vehiclemake, user.vehiclemodel);
+                var rates = GetRates(idvValue.type);
+                var compreshenivePolicy = (idvValue.idv * (1 - (types.ord_age)) * rates.comprehensiveCoverage / 100) + rates.limitedlibality;
+                user.formula = "Dear " + user.username + " for your " + @user.vehiclemake + " " + @user.vehiclemodel + " Vehicle ,the total quote is $ " + Math.Round(compreshenivePolicy, 2) + " .Thank you! ";
+            }
+            else if (user.vehiclecoverage == "Comprehensive" && user.vehicletype == "New Vehicle")
+            {
+                var idvValue = GetIDV(user.vehiclemake, user.vehiclemodel);
+                var rates = GetRates(idvValue.type);
+                var compreshenivePolicy = ((idvValue.idv * rates.comprehensiveCoverage) / 100) + rates.limitedlibality;
+                user.formula = "Dear " + user.username + " for your " + @user.vehiclemake + " " + @user.vehiclemodel + " Vehicle ,the total quote is $ " + Math.Round(compreshenivePolicy, 2) + " .Thank you! ";
+            }
+            else if (user.vehiclecoverage == "Liability" && user.vehicletype == "New Vehicle")
+            {
+                var idvValue = GetIDV(user.vehiclemake, user.vehiclemodel);
+                var rates = GetRates(idvValue.type);
+                user.formula = "Dear " + user.username + " for your " + @user.vehiclemake + " " + @user.vehiclemodel + " Vehicle ,the total quote is $ " + Math.Round((double)rates.limitedlibality, 2) + " .Thank you! ";
+            }
+
+        }
+        catch (Exception ex)
+        {
+        }
+
+
+        var result = await Http.PostAsJsonAsync<User>($"api/QuoteGenerate", user);
+
+
+        var finalResult = await result.Content.ReadFromJsonAsync<User>();
+        return finalResult;
+      
+
+    }
+
+}
+
+
+
